@@ -1,0 +1,33 @@
+{
+  "name": "shopify-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphonso77/shopify-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alphonso77/shopify-tutorial/issues"
+  },
+  "homepage": "https://github.com/alphonso77/shopify-tutorial#readme",
+  "dependencies": {
+    "@shopify/koa-shopify-auth": "^3.1.63",
+    "dotenv": "^8.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "koa": "^2.12.1",
+    "koa-session": "^6.0.0",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
